@@ -1,18 +1,11 @@
 <style>
      label{
-        background-color: rgb(210 210 245);
+        background-color: #bfa700 ;
         font-size: 20px;
+        border-radius: 10px;
     }
-    h1{
-        
-        background-color: pink;
-        font-size: 24px;
-    } 
-    body{
-        background-color: beige;
-    }
+     
 </style>
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -28,7 +21,7 @@
    
     <header>
          <h1>Formulário de contato</h1>
-         <h1>teste</h1>
+        
      </header>
          <nav>
         <a href="index.html">Início</a>|
@@ -37,29 +30,27 @@
         </nav>
  <main>
     <form>
+    <div class="campo">
         <label for="nome">Nome:</label>
-        <br>
         <input type="text" id="nome" name="nome">
-<br>
- <br>
+    </div>
+       
+    <div class="campo">
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+    </div>
 
-      <label for="email">E-mail:</label>
-      <br>
-       <input type="email" id="email" name="email">
-<br>
-<br>
-    <label for="mensagem">Mensagem:</label>
-    <br>
-    <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
+    <div class="campo"> 
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" cols="30"></textarea>
+    </div>
 
-<br>
-<br>
     <button type="submit">Enviar</button>
 
  </form>
 </main>
    <footer>
-<span>2026 - Bianca Schwalbert</span>
+<p>2026 - Bianca Schwalbert</p>
 </footer> 
 </body>
 </html>
